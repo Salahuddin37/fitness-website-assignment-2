@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+  }
+
+  .pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  /* SHARED STYLES SECTION------------SHARED STYLES SECTION----------------SHARED STYLES SECTION */
+  .primary-bg-color{
+    background-color: rgb(0, 0, 0);
+  }
+  .primary-font-size{
+    font-size: 2.8rem;
+  }
+  .secondary-font-size{
+    font-size: 0.8rem; 
+   line-height: 20px;
+  }
+  .primary-color{
+    color: white;
+  }
+  .secondary-color{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .primary-btn{
+    background-color: rgb(230, 83, 60);
+  }
+  
+  /* NAV BAR SECTION STYLES START HERE-----------------------------NAV-BAR */
+ .header-content{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    
+ } 
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 0 0 0;
+    /* border: 2px white; */
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.nav-menu{
+    border: 1px solid rgba(161, 155, 155, 0.441);
+    padding: 8px 10px 8px 2px;
+    border-radius: 20px;
+}
+.nav-bar-content{
+    max-width: 1000px;
+    margin: 0 auto;
+       
+}
+.hambars{
+    display: none;
+}
+.nav-title{
+    text-decoration: italic;
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+.nav-home{
+    background-color: rgb(230, 83, 60);
+    padding: 6px 17px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+/* NAV BAR SECTION STYLES END HERE-----------------------------NAV-BAR */
+
+/* HEADER SECTION STYLES START HERE-----------------------------HEADER */
+.header-container{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.header-content{
+    width: 100%;
+}
+/* ------------------------------------------------ */
+.header-image{
+    width: 50%;
+    
+}
+.top-right-bottom{
+    position: absolute;
+    color: white;
+    font-size: 0.7rem;
+    margin-top: -43%;
+    margin-left: 22%;
+    background-color: #383838e2;
+    border-radius: 12px;
+    padding: 12px 5px 15px 20px;
+    fill-opacity: 20px;
+}
+.top-right-bottom h1{
+    font-size: 2.2rem;
+    padding-right:40px;
+}
+
+.left-bottom{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: -130px;
+    margin-left: -55px;
+    background-color: #383737e4;
+    border-radius: 10px;
+    padding: 14px 12px;
+    
+}
+.circle-ball{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-right: 7px;
+
+}
+.media-player{
+    display: none;
+    text-align: center;
+    padding-right: 7px;
+}
+.left-bottom h1{
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+}
+/* ------------------------------------------------- */
+
+.header-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.header-btn{
+    border: none;
+    padding: 14px 40px;
+    border-radius: 40px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+.header-btn-mobile{
+    display: none;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 40px;
+    font-size: 1rem;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-weight: 600; 
+}
+.header-btn-2{
+    border: 1px solid white;
+    padding: 14px 40px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: rgb(16, 16, 16);
+}
+.header-title{
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.header-description{
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.title--description{
+    width: 70%;
+}
+.header-description{
+    line-height: 25px;
+}
+
+/* HEADER SECTION STYLES START HERE-----------------------------HEADER */
+
+/* MAIN SECTION ABOUT HABIT ------------------------------------MAIN */
+.section-1{
+   padding-top: 80px;
+}
+.main-habit-section{
+    max-width: 70%;
+    margin: 0 auto;
+      
+}
+.habit-container{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.habit-parent{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+.habit-child-description{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.habit-parent img{
+    border-radius: 50%;
+    
+}
+.habit-child-title{
+    padding-bottom: 5px;
+}
+
+/* SECOND SECTION ABOUT RUN EASILY---------------------------------------------- */
+.second-run-section{
+    padding-top: 50px;
+}
+.run-parent{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.run-child-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: center; */
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(65, 64, 64, 0.164);
+}
+.run-child-1{
+    width: 50%;
+    padding: 30px 20px 30px 50px;
+    
+}
+.run-title{
+    max-width: 80%;
+    padding-bottom: 12px;
+}
+.run-description{
+    max-width: 80%;
+    padding-bottom: 20px;
+}
+.run-child-2{
+    width: 36%;
+    padding: 20px 25px 20px 20px;
+}
+.run-btn{
+    border: none;
+    font-size: 1rem;
+    padding: 12px 60px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+/* BMI CALCULATOR , CHALLENGE SECTION START HERE ----------------------------------BMI SECTION */
+
+.bmi-section{
+    background-color: rgb(34, 34, 34);
+    max-width: 100%;
+}
+.bmi-calculator-content{
+    width: 36%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.bmi-chart-container{
+    width: 100%;
+    height: 70%;
+    border-collapse: collapse;
+    
+} 
+.chart-title{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.bmi-chart-container td{
+    border: 1px solid rgba(101, 99, 99, 0.773);
+    
+}
+.bmi-container{
+    max-width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bmi-chart{
+    width: 30%;
+    height: 300px;
+    margin-top: -50px;
+}
+.chart-data{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.chart-header{
+    font-size: 0.9rem;
+}
+.chart-data, .chart-header{
+    padding-left: 20px;
+}
+.bmi-from-calculate{
+    width: 55%;
+    
+}
+.from-title-and-description{
+    width: 90%;
+    padding-bottom: 25px;
+}
+.from-description{
+    padding-top: 16px;
+}
+.bmi-from-calculate-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.from-field{
+    width: 50%;
+}
+.from-field-2{
+    width: 100%;
+    
+}
+.bmi-from-calculate-content input, select{
+    width: 96%;
+    height: 45px;
+    padding-left: 15px;
+    margin: 6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(55, 55, 55);
+    color: rgba(186, 180, 180, 0.896);
+    
+}
+.bmi-from-calculate-content, input, ::placeholder{
+    color: rgba(186, 180, 180, 0.896);
+    
+}
+.bmi-from-calculate-content .from-field-2 select{
+    width:98%;
+    border-radius: 5px;
+    
+    
+}
+.bmi-from-calculate-content button{
+    border: none;
+    margin-top: 25px;
+    font-size: 1rem;
+    padding: 12px 60px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+/* THIRD SECTION ABOUT MEET OUR CLIENT ------------------------------------------MEET SECTION */
+.meet-content{
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.meet-parent{
+    max-width: 1000px;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    text-align: center;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    background-color: rgb(25, 25, 25);
+    grid-template-columns: repeat(3, 1fr);
+}
+.meet-child{
+    padding: 8px 8px 4px 8px; 
+    position: relative;   
+}
+.meet-trainer-name{
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 6%;
+}
+.meet-trainer-name-pc{
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 6%;
+}
+.meet-trainer-name-mobile{
+    display: none;
+}
+.meet-trainer{
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 6%;
+}
+.meet-child img{
+    width: 100%;
+    border-radius: 16px;
+    height: 280px;
+    object-fit: cover;
+    filter: brightness(80%);
+    
+}
+
+/* footer section design start here-------------------------------------------------------------------------- */
+.footer-bg-color{
+    background-color: rgb(25, 25, 25);
+}
+.footer-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 18%;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(47, 47, 47);
+}
+.all-right{
+    text-align: center;
+    padding: 22px 0 22px 0;
+}
+.footer-content{
+    width: 50%;
+}
+.footer-parent{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-title{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+.footer-childrean{
+    line-height: 35px;
+}
+.footer-title{
+    max-width: 75%;
+    font-size: 3.2rem;
+}
+.footer-description{
+    max-width: 75%;
+}
+
+
+
+/*  RESPONSIVE FOR SMALL-DEVICE-------------------------RESPONSIVE FOR SMALL DEVICE */
+@media screen and (max-width: 576px) {
+/* nab bar section design start here------------------------------------------------------------nab-bar section */
+    .nav-menu{
+        display: none;
+    }
+    .hambars{
+        display: block;
+    }
+    .nav-container{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .nav-bar-content{
+        width: 90%;  
+        
+    }
+    /* header section design start here----------------------------------------------------------- header section*/
+    .header-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .title--description{
+        width: 70%;
+        margin-left: 5%;
+    }
+    .header-description{
+        line-height: 30px;
+        font-size: 1.1rem;
+    }
+    .header-image{
+        width: 90%;
+        
+    }
+    
+    .header-image img{
+        width: 100%;
+        margin: 0px;
+        object-fit: cover;
+        border: none;
+        
+    }
+    .header-title{
+        font-size: 40px;
+        
+    }
+
+    .banner-btn{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .banner-btn button{
+        
+        font-size: 1.2rem;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-btn-mobile{
+        display: block;
+        width: 50%;
+        border-radius: 40px;
+        font-size: 1rem;
+        background-color: rgb(230, 83, 60);
+        color: white;
+        font-weight: 600;    
+    }
+    .header-btn-2{
+        width:50%;
+        padding: 20px 0px;
+        border-radius: 40px;
+        color: white;
+        font-weight: 600;
+        font-size: 1rem;
+        background-color: rgb(16, 16, 16);
+    }
+    .top-right-bottom{
+        margin-top: -580px;
+        margin-left: 210px;
+       
+    }
+    .top-right h1{
+        font-size: 1.8rem;
+    }
+    .left-bottom{
+        margin-top: -350px;
+        margin-left: 25px;  
+         
+    }
+    .circle-ball{
+        display: none;
+    }
+     
+    .media-player{
+        display: block;
+    }
+    
+    /* main section-1 about habit start here------------------------------------------------------------habit section */
+    .habit-container{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .habit-parent{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .main-habit-section{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .habit-description{
+        font-size: 1rem;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .habit-child-title{
+        font-size: 1.5rem;
+    }
+    .habit-child-description{
+        max-width: 90%;
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    .habit-title{
+       font-size: 1.6rem;
+       
+    }
+    .section-1, .habit-child-title{
+        padding-top: 20px;
+     }
+     .habit-child-description{
+        padding: 10px;
+     }
+     /* run section-2 desingn start here------------------------------------------------------------- run section*/
+     .run-parent{
+        max-width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 40px 40px 40px 40px;
+        
+    }
+    .run-child-1{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+        
+    }
+    .run-title{
+        font-size: 2.5rem;
+        max-width: 100%;
+        padding-bottom: 15px;
+    }
+    .run-description{
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    .run-child-2{
+        width: 100%;
+        padding: 0px;
+    }
+    .run-btn{
+        margin-top: 10px;
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 16px 0;
+        color: white;
+        font-weight: 500;
+    }
+   
+    .run-child-2 img{
+        width: 100%;
+       
+      
+    }
+    /* bmi section design start here--------------------------------------------------bmi section */
+    .bmi-calculator-content{
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .bmi-calculator-description{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .bmi-container{
+        max-width: 100%;
+        flex-direction: column;  
+    }
+    .bmi-chart{
+        width: 80%;
+        margin-right: 50px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .bmi-from-calculate{
+        width: 95%;
+        margin-right: -10px;
+        margin-top: 30px;   
+    }
+    .from-description{
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .bmi-from-calculate-content input, select{
+        width: 94%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .bmi-from-calculate-content .from-field-2 select{
+        width: 97%;
+        border-radius: 10px;
+    }
+    .bmi-from-calculate-content button{
+        padding: 20px 75px;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    /* meet our team , third section design----------------------------------------------meet section */
+    .meet-content{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .meet-title{
+        width: 100%;
+        font-weight: 800;
+        font-size: 2.5rem;
+        padding-bottom: 12px;
+    }
+    .meet-description{
+        max-width: 100%;
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .meet-parent{
+        max-width: 100%;
+        padding: 12px 12px 7px 12px;
+        margin: 50px 20px 0 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet-child{
+        padding: 8px 8px 8px 8px; 
+        
+    }
+    .meet-child img{
+        width: 100%;
+        border-radius: 16px;
+        height: 290px; 
+    }
+    .meet-trainer-name{
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+    .meet-trainer-name-mobile{
+        display: block;
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 6%;
+    }
+    .meet-trainer-name-mobile{
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+    .meet-trainer-name-pc{
+        display: none;
+    }
+    .meet-trainer{
+        font-size: 1rem;
+    }
+    #child-1{
+        display: none;
+    }
+    #child-2{
+        display: none;
+    }
+/* footer section desing start here-------------------------------------------------------- */
+.footer-container{
+    max-width: 90%;
+    flex-direction: column;
+    
+    gap: none;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(47, 47, 47);
+}
+
+.footer-content{
+    width: 90%;
+}
+.footer-parent{
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.footer-title{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 4rem;
+}
+.footer-childrean{
+    font-size: 1.1rem;
+    line-height: 35px;
+}
+.footer-sub-title{
+    font-size: 1.2rem;
+    padding-top: 25px;
+}
+.footer-description{
+    max-width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.footer-title{
+    max-width: 100%;
+    font-size: 4rem;
+}
+.footer-sub-title{
+    font-size: 2rem;
+}
+.footer-childrean{
+    font-size: 1.3rem;
+    line-height: 50px;
+}
+.all-right{
+    font-size: 1.2rem;
+}
+
+}
+
+
+
+
